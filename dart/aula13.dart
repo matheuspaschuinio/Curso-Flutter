@@ -5,6 +5,11 @@ void main() {
   var pegaFuncao = getNumero();
 
   print(pegaFuncao);
+
+  var pegaFuncao2 = getValores();
+
+  print(pegaFuncao2);
+  print(pegaFuncao2.$4);
 }
 
 String getNome() {
@@ -13,4 +18,8 @@ String getNome() {
 
 int getNumero() {
   return 150;
+}
+
+(int, String, bool, double, String) getValores() {
+  return (150, "Matheus", false, 5.7, "Tipo");
 }
